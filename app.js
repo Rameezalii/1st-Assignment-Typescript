@@ -1,3 +1,4 @@
+"use strict";
 // PROJECT NUMBER 2
 /*  let message = ' “Hello Eric, would you like to learn some Python today?”'
 console.log(message);*/
@@ -109,20 +110,72 @@ for(let i = 0 ; i < guestAr.length ; i++){
 }
  */
 // PROJECT 17 
-// let guestAr = ["Rameez","Anus","Ali","Ebad","Abdul Ghani","Mohsin"];
-// console.log("Due to a delay, we can only invite two people for dinner.");
-// for (let i = 0 ; i < guestAr.length; i++) {
-//     console.log(`Sorry, ${guestAr.pop()}. We can't invite you to dinner.`);
-// }
-// for(let)
-// guestAr.pop()
-// guestAr.pop()
-// console.log(guestAr);
+/*
+let dinnerGuests = ["Alice", "Bob", "Charlie", "David", "Eve"];
+
+console.log("Unfortunately, the dinner table can only accommodate two guests.");
+
+while (dinnerGuests.length > 2) {
+    
+    const removedGuest = dinnerGuests.pop();
+    
+    
+    console.log("Sorry,"+ removedGuest+", you can't be invited to dinner.");
+}
+
+dinnerGuests.forEach(guest => {
+    console.log(guest+", you're still invited to dinner.");
+});
+
+dinnerGuests.pop();
+dinnerGuests.pop();
+
+
+console.log("Updated Guest List:", dinnerGuests);
+ */
 // PROJECT 18 
-// INCOMPLETE
+/*
+// Define the array of places
+let placesToVisit = ["Tokyo", "Paris", "New York", "Sydney", "Rio de Janeiro"];
+
+// Print the array in its original order
+console.log("Original Order:", placesToVisit);
+
+// Print the array in alphabetical order without modifying the original list
+console.log("Alphabetical Order:", [...placesToVisit].sort());
+
+// Show that the array is still in its original order
+console.log("Original Order (unchanged):", placesToVisit);
+
+// Print the array in reverse alphabetical order without modifying the original list
+console.log("Reverse Alphabetical Order:", [...placesToVisit].sort().reverse());
+
+// Show that the array is still in its original order
+console.log("Original Order (unchanged):", placesToVisit);
+
+// Reverse the order of the original list
+placesToVisit.reverse();
+console.log("Reversed Order:", placesToVisit);
+
+// Reverse the order again to get back to the original order
+placesToVisit.reverse();
+console.log("Back to Original Order:", placesToVisit);
+
+// Sort the array in alphabetical order
+placesToVisit.sort();
+console.log("Sorted in Alphabetical Order:", placesToVisit);
+
+// Sort the array in reverse alphabetical order
+placesToVisit.sort().reverse();
+console.log("Sorted in Reverse Alphabetical Order:", placesToVisit);
+ */
 // PROJECT 19 
-var guests = ["Alice", "Bob", "Charlie", "Dave", "Eve", "Frank"];
-console.log("You are inviting " + guests.length + " people to dinner.");
+/*
+let dinnerGuests = ["Alice", "Bob", "Charlie", "David", "Eve"];
+
+console.log("Number of people invited to dinner:", dinnerGuests.length);
+
+ */
 // PROJECT 20
 /* let cities = ["USA", "Canada", "Australia", "Japan", "France"];
 console.log("List of Cities:");
@@ -353,23 +406,32 @@ if(users.length > 0){
  */
 // PROJECT 32
 /*
-let currentUsername = ["Rameez","Anus","Usama","Rashid","Hasnain"];
-let newUsername = ["Ali","Rameez","Rashid","Amaan","Mohsin"];
+// Current usernames
+const currentUsers = ["Alice", "Bob", "Charlie", "David", "Eve"];
 
-for(var i = 0 ; i < newUsername.length ; i++){
-     var usernameExists = false;
+// New usernames
+const newUsers = ["Bob", "Frank", "John", "Kate", "Sarah"];
 
-     for(var j = 0 ; j < currentUsername.length ; j++){
-        if(currentUsername[j].toLowerCase() === newUsername[i].toLowerCase()){
+// Loop through new_users to check for uniqueness
+for (let newUser of newUsers) {
+    // Check if the username already exists (case-insensitive)
+    let usernameExists = false;
+    for (let existingUser of currentUsers) {
+        if (existingUser.toLowerCase() === newUser.toLowerCase()) {
             usernameExists = true;
             break;
         }
-     }
-     let message = usernameExists ?
-     "Sorry, the username '" + newUsername[i] + "' is already taken. Please enter a new username." :
-     "Congratulations! The username '" + newUsername[i] + "' is available.";
-     console.log(message)
-    } */
+    }
+
+    // Print the appropriate message
+    if (usernameExists) {
+        console.log(`Sorry, ${newUser} is not available. Please choose a different username.`);
+    } else {
+        console.log(`${newUser} is available.`);
+    }
+}
+
+ */
 //    PROJECT NUMBER 33
 /*
 let numbers = [1,2,3,4,5,6,7,8,9];
@@ -498,8 +560,10 @@ let magicianNames = ['David Copperfield', 'Harry Houdini', 'Merlin'];
 
 show_magicians(magicianNames); */
 // PROJECT NUMBER 43
-// INCOMPLETE 
+// INCOMPLETE
 // PROJECT NUMBER 44
 // INCOMPLET 
 // PROJECT NUMBER 45
 // INCOMPLETE
+let a = "Ariba";
+console.log(a);
