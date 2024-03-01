@@ -1,4 +1,3 @@
-"use strict";
 // PROJECT NUMBER 2
 /*  let message = ' “Hello Eric, would you like to learn some Python today?”'
 console.log(message);*/
