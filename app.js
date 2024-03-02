@@ -134,27 +134,30 @@ dinnerGuests.pop();
 console.log("Updated Guest List:", dinnerGuests);
  */
 // PROJECT 18 
-let diffLocations = [" Saddar ", " Liaquatabad ", " Nazimabad ", " Hyderi ", " Azizabad ", " Karmiabad "];
+/* let diffLocations = [" Saddar "," Liaquatabad ", " Nazimabad "," Hyderi "," Azizabad "," Karmiabad "];
 console.log(`Locations : ${diffLocations}`);
-diffLocations.sort();
+
+  diffLocations.sort();
 console.log(`Array In Alphabetical Order : ${diffLocations}`);
-diffLocations.reverse();
+
+  diffLocations.reverse();
 console.log(`Reverse In Alphabetical Order : ${diffLocations}`);
+
 diffLocations.reverse();
 console.log(`Again Reverse In Alphabetical Order : ${diffLocations}`);
+ 
+ diffLocations.sort();
+console.log(`Sort Array : ${diffLocations}`);
+
 diffLocations.sort();
 console.log(`Sort Array : ${diffLocations}`);
-diffLocations.sort();
-console.log(`Sort Array : ${diffLocations}`);
+
 diffLocations.sort().reverse();
 console.log(`Reverse Alphabatic Order : ${diffLocations}`);
-// PROJECT 19 
-/*
-let dinnerGuests = ["Alice", "Bob", "Charlie", "David", "Eve"];
-
-console.log("Number of people invited to dinner:", dinnerGuests.length);
-
  */
+// PROJECT 19 
+let dinnerGuests = ["Alice", "Bob", "Charlie", "David", "Eve"];
+console.log("Number of people invited to dinner:", dinnerGuests.length);
 // PROJECT 20
 /* let cities = ["USA", "Canada", "Australia", "Japan", "France"];
 console.log("List of Cities:");

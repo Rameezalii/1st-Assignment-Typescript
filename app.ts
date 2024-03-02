@@ -169,7 +169,7 @@ console.log("Updated Guest List:", dinnerGuests);
 
 // PROJECT 18 
 
-/* let diffLocations = [" Saddar "," Liaquatabad ", " Nazimabad "," Hyderi "," Azizabad "," Karmiabad "];
+/* let diffLocations  : string[] = [" Saddar "," Liaquatabad ", " Nazimabad "," Hyderi "," Azizabad "," Karmiabad "];
 console.log(`Locations : ${diffLocations}`);
 
   diffLocations.sort();
@@ -194,12 +194,12 @@ console.log(`Reverse Alphabatic Order : ${diffLocations}`);
 
 // PROJECT 19 
 
-/* 
-let dinnerGuests = ["Alice", "Bob", "Charlie", "David", "Eve"];
+ /* 
+let dinnerGuests : string[] = ["Alice", "Bob", "Charlie", "David", "Eve"];
 
 console.log("Number of people invited to dinner:", dinnerGuests.length);
-
- */
+  */
+ 
 
 // PROJECT 20
 
@@ -229,17 +229,16 @@ console.log(france1); */
 
 
 // PROJECT 22
-
-/* let myArr = [1,2,,3,4,5];
+/* 
+ let myArr = [1,2,,3,4,5];
 let incorrectValue = myArr[10];
 
 let correctArr = myArr[2];
-console.log(correctArr); */
+console.log(correctArr); 
 
+ */
 
-
-// PROJECT 23
-
+//  PROJECT 23
 
 /* let car = 'subaru';
 
@@ -276,7 +275,6 @@ console.log(car.length === 4 ) */
 
 
 // PROJECT NUMBER 24
-
 
 // Tests for equality and inequality with strings:
 /* let string1 = "hello";
@@ -566,7 +564,6 @@ for (let i = 0; i < favoriteAnimals.length; i++) {
 console.log("\nAny of these animals would make a great pet!");
 
  */
-
 
 
 // PROJECT NUMBER 36
