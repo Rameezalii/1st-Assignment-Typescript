@@ -134,7 +134,7 @@ dinnerGuests.pop();
 console.log("Updated Guest List:", dinnerGuests);
  */
 // PROJECT 18 
-/* let diffLocations = [" Saddar "," Liaquatabad ", " Nazimabad "," Hyderi "," Azizabad "," Karmiabad "];
+/* let diffLocations  : string[] = [" Saddar "," Liaquatabad ", " Nazimabad "," Hyderi "," Azizabad "," Karmiabad "];
 console.log(`Locations : ${diffLocations}`);
 
   diffLocations.sort();
@@ -156,8 +156,11 @@ diffLocations.sort().reverse();
 console.log(`Reverse Alphabatic Order : ${diffLocations}`);
  */
 // PROJECT 19 
-let dinnerGuests = ["Alice", "Bob", "Charlie", "David", "Eve"];
+/*
+let dinnerGuests : string[] = ["Alice", "Bob", "Charlie", "David", "Eve"];
+
 console.log("Number of people invited to dinner:", dinnerGuests.length);
+ */
 // PROJECT 20
 /* let cities = ["USA", "Canada", "Australia", "Japan", "France"];
 console.log("List of Cities:");
@@ -179,12 +182,15 @@ console.log(australia);
 console.log(japan1);
 console.log(france1); */
 // PROJECT 22
-/* let myArr = [1,2,,3,4,5];
+/*
+ let myArr = [1,2,,3,4,5];
 let incorrectValue = myArr[10];
 
 let correctArr = myArr[2];
-console.log(correctArr); */
-// PROJECT 23
+console.log(correctArr);
+
+ */
+//  PROJECT 23
 /* let car = 'subaru';
 
 console.log("Is car equal to 'subaru'? I predict True.")
@@ -388,31 +394,18 @@ if(users.length > 0){
  */
 // PROJECT 32
 /*
-// Current usernames
-const currentUsers = ["Alice", "Bob", "Charlie", "David", "Eve"];
+let currentUser = ["rameez", "anas", "mohsin", "ebad"];
+let newUsers = ["rameez", "ali", "abdullah"];
+for (let i = 0; i < currentUser.length; i++) {
+    // console.log(currentUser[i]);
+    for (let j = 0; j < newUsers.length; j++) {
+        // console.log(currentUser[j]);
+        if (currentUser[i] === newUsers[j]) {
+            console.log("true",currentUser[i]);
 
-// New usernames
-const newUsers = ["Bob", "Frank", "John", "Kate", "Sarah"];
-
-// Loop through new_users to check for uniqueness
-for (let newUser of newUsers) {
-    // Check if the username already exists (case-insensitive)
-    let usernameExists = false;
-    for (let existingUser of currentUsers) {
-        if (existingUser.toLowerCase() === newUser.toLowerCase()) {
-            usernameExists = true;
-            break;
         }
     }
-
-    // Print the appropriate message
-    if (usernameExists) {
-        console.log(`Sorry, ${newUser} is not available. Please choose a different username.`);
-    } else {
-        console.log(`${newUser} is available.`);
-    }
 }
-
  */
 //    PROJECT NUMBER 33
 /*

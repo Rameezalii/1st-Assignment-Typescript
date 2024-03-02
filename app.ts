@@ -469,37 +469,19 @@ if(users.length > 0){
 // PROJECT 32
 
 /* 
-// Current usernames
-const currentUsers = ["Alice", "Bob", "Charlie", "David", "Eve"];
+let currentUser = ["rameez", "anas", "mohsin", "ebad"];
+let newUsers = ["rameez", "ali", "abdullah"];
+for (let i = 0; i < currentUser.length; i++) {
+    // console.log(currentUser[i]);
+    for (let j = 0; j < newUsers.length; j++) {
+        // console.log(currentUser[j]);
+        if (currentUser[i] === newUsers[j]) {
+            console.log("true",currentUser[i]);
 
-// New usernames
-const newUsers = ["Bob", "Frank", "John", "Kate", "Sarah"];
-
-// Loop through new_users to check for uniqueness
-for (let newUser of newUsers) {
-    // Check if the username already exists (case-insensitive)
-    let usernameExists = false;
-    for (let existingUser of currentUsers) {
-        if (existingUser.toLowerCase() === newUser.toLowerCase()) {
-            usernameExists = true;
-            break;
         }
     }
-
-    // Print the appropriate message
-    if (usernameExists) {
-        console.log(`Sorry, ${newUser} is not available. Please choose a different username.`);
-    } else {
-        console.log(`${newUser} is available.`);
-    }
 }
-
  */
-
-
-
-
-
 
 //    PROJECT NUMBER 33
 
