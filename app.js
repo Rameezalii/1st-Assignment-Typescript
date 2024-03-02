@@ -1,5 +1,6 @@
+"use strict";
 // PROJECT NUMBER 2
-/*  let message = ' “Hello Eric, would you like to learn some Python today?”'
+/*  let message : string = ' “Hello Eric, would you like to learn some Python today?”'
 console.log(message);*/
 // PROJECT NUMBER 3
 /*
@@ -41,16 +42,16 @@ console.log("My Favorite Number Is "+favNum);
 */
 // PROJECT 10
 /*
-let num = 6;
-let num2 = 7;
-let sum = num + num2;
+let num: number = 6;
+let num2 : number= 7;
+let sum : number= num + num2;
 
 console.log(`The sum of ${num} and ${num2} is: ${sum}`);
 */
 // PROJECT 11
 /*
 
-let names = ["Rameez" , "Ali" , "Abdullah" , "Abdul Ghani"]
+let name = ["Rameez" , "Ali" , "Abdullah" , "Abdul Ghani"]
 
 
 for( var i = 0 ; i < names.length ; i++){
@@ -60,7 +61,7 @@ for( var i = 0 ; i < names.length ; i++){
 // PROJECT NUMBER 12
 /*
 let names = ["Rameez" , "Ali" , "Abdullah" , "Abdul Ghani"]
-let messges = " you are very good person."
+let messges : string= " you are very good person."
 
 for( var i = 0 ; i < names.length ; i++){
     console.log(names[i]+messges);
@@ -133,41 +134,20 @@ dinnerGuests.pop();
 console.log("Updated Guest List:", dinnerGuests);
  */
 // PROJECT 18 
-/*
-// Define the array of places
-let placesToVisit = ["Tokyo", "Paris", "New York", "Sydney", "Rio de Janeiro"];
-
-// Print the array in its original order
-console.log("Original Order:", placesToVisit);
-
-// Print the array in alphabetical order without modifying the original list
-console.log("Alphabetical Order:", [...placesToVisit].sort());
-
-// Show that the array is still in its original order
-console.log("Original Order (unchanged):", placesToVisit);
-
-// Print the array in reverse alphabetical order without modifying the original list
-console.log("Reverse Alphabetical Order:", [...placesToVisit].sort().reverse());
-
-// Show that the array is still in its original order
-console.log("Original Order (unchanged):", placesToVisit);
-
-// Reverse the order of the original list
-placesToVisit.reverse();
-console.log("Reversed Order:", placesToVisit);
-
-// Reverse the order again to get back to the original order
-placesToVisit.reverse();
-console.log("Back to Original Order:", placesToVisit);
-
-// Sort the array in alphabetical order
-placesToVisit.sort();
-console.log("Sorted in Alphabetical Order:", placesToVisit);
-
-// Sort the array in reverse alphabetical order
-placesToVisit.sort().reverse();
-console.log("Sorted in Reverse Alphabetical Order:", placesToVisit);
- */
+let diffLocations = [" Saddar ", " Liaquatabad ", " Nazimabad ", " Hyderi ", " Azizabad ", " Karmiabad "];
+console.log(`Locations : ${diffLocations}`);
+diffLocations.sort();
+console.log(`Array In Alphabetical Order : ${diffLocations}`);
+diffLocations.reverse();
+console.log(`Reverse In Alphabetical Order : ${diffLocations}`);
+diffLocations.reverse();
+console.log(`Again Reverse In Alphabetical Order : ${diffLocations}`);
+diffLocations.sort();
+console.log(`Sort Array : ${diffLocations}`);
+diffLocations.sort();
+console.log(`Sort Array : ${diffLocations}`);
+diffLocations.sort().reverse();
+console.log(`Reverse Alphabatic Order : ${diffLocations}`);
 // PROJECT 19 
 /*
 let dinnerGuests = ["Alice", "Bob", "Charlie", "David", "Eve"];
@@ -563,6 +543,4 @@ show_magicians(magicianNames); */
 // PROJECT NUMBER 44
 // INCOMPLET 
 // PROJECT NUMBER 45
-// INCOMPLETE
-let a = "Ariba";
-console.log(a);
+// INCOMPLETE 

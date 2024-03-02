@@ -1,6 +1,6 @@
 // PROJECT NUMBER 2
 
-/*  let message = ' “Hello Eric, would you like to learn some Python today?”'
+/*  let message : string = ' “Hello Eric, would you like to learn some Python today?”'
 console.log(message);*/
 
 
@@ -56,9 +56,9 @@ console.log("My Favorite Number Is "+favNum);
 
 // PROJECT 10
 /*
-let num = 6;
-let num2 = 7;
-let sum = num + num2;
+let num: number = 6;
+let num2 : number= 7;
+let sum : number= num + num2;
 
 console.log(`The sum of ${num} and ${num2} is: ${sum}`);
 */
@@ -67,7 +67,7 @@ console.log(`The sum of ${num} and ${num2} is: ${sum}`);
 // PROJECT 11
 /*
 
-let names = ["Rameez" , "Ali" , "Abdullah" , "Abdul Ghani"]
+let name = ["Rameez" , "Ali" , "Abdullah" , "Abdul Ghani"]
 
 
 for( var i = 0 ; i < names.length ; i++){
@@ -80,7 +80,7 @@ for( var i = 0 ; i < names.length ; i++){
 
 /*
 let names = ["Rameez" , "Ali" , "Abdullah" , "Abdul Ghani"]
-let messges = " you are very good person."
+let messges : string= " you are very good person."
 
 for( var i = 0 ; i < names.length ; i++){
     console.log(names[i]+messges);
@@ -168,41 +168,29 @@ console.log("Updated Guest List:", dinnerGuests);
 
 
 // PROJECT 18 
-/* 
-// Define the array of places
-let placesToVisit = ["Tokyo", "Paris", "New York", "Sydney", "Rio de Janeiro"];
 
-// Print the array in its original order
-console.log("Original Order:", placesToVisit);
+/* let diffLocations = [" Saddar "," Liaquatabad ", " Nazimabad "," Hyderi "," Azizabad "," Karmiabad "];
+console.log(`Locations : ${diffLocations}`);
 
-// Print the array in alphabetical order without modifying the original list
-console.log("Alphabetical Order:", [...placesToVisit].sort());
+  diffLocations.sort();
+console.log(`Array In Alphabetical Order : ${diffLocations}`);
 
-// Show that the array is still in its original order
-console.log("Original Order (unchanged):", placesToVisit);
+  diffLocations.reverse();
+console.log(`Reverse In Alphabetical Order : ${diffLocations}`); 
 
-// Print the array in reverse alphabetical order without modifying the original list
-console.log("Reverse Alphabetical Order:", [...placesToVisit].sort().reverse());
+diffLocations.reverse();
+console.log(`Again Reverse In Alphabetical Order : ${diffLocations}`);
+ 
+ diffLocations.sort();
+console.log(`Sort Array : ${diffLocations}`);
 
-// Show that the array is still in its original order
-console.log("Original Order (unchanged):", placesToVisit);
+diffLocations.sort();
+console.log(`Sort Array : ${diffLocations}`);
 
-// Reverse the order of the original list
-placesToVisit.reverse();
-console.log("Reversed Order:", placesToVisit);
-
-// Reverse the order again to get back to the original order
-placesToVisit.reverse();
-console.log("Back to Original Order:", placesToVisit);
-
-// Sort the array in alphabetical order
-placesToVisit.sort();
-console.log("Sorted in Alphabetical Order:", placesToVisit);
-
-// Sort the array in reverse alphabetical order
-placesToVisit.sort().reverse();
-console.log("Sorted in Reverse Alphabetical Order:", placesToVisit);
+diffLocations.sort().reverse();
+console.log(`Reverse Alphabatic Order : ${diffLocations}`);
  */
+
 
 // PROJECT 19 
 
