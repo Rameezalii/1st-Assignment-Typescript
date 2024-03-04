@@ -28,13 +28,13 @@ console.log(authorName+" once said,"+' “A person who never made a mistake neve
 
 
 // PROJECT NUMBER 6
-/*
+/* 
 let newName: string = "Ali";
 let newName2: string = "Rameez";
 
-console.log("\t"+newName+"\t"+"\n");
-console.log("\t"+newName2+"\t");
-*/
+console.log("\t\n"+newName+"\t\n");
+console.log("\t\n"+newName2.trim()+"\t\n");
+ */
 
 // PROJECT 7 & 8
 

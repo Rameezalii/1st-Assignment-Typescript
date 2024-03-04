@@ -1,4 +1,3 @@
-"use strict";
 // PROJECT NUMBER 2
 /*  let message : string = ' “Hello Eric, would you like to learn some Python today?”'
 console.log(message);*/
@@ -21,13 +20,11 @@ let authorName : string = "Albert Einstein";
 console.log(authorName+" once said,"+' “A person who never made a mistake never tried anything new.” ');
 */
 // PROJECT NUMBER 6
-/*
-let newName: string = "Ali";
-let newName2: string = "Rameez";
-
-console.log("\t"+newName+"\t"+"\n");
-console.log("\t"+newName2+"\t");
-*/
+let newName = "Ali";
+let newName2 = "Rameez";
+console.log("\t\n" + newName + "\t\n");
+console.log("\t\n" + newName2 + "\t\n");
+export {};
 // PROJECT 7 & 8
 /*
 console.log(5+3);
