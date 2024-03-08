@@ -1,91 +1,102 @@
-// PROJECT NUMBER 2
+// Task 2
 
-/*  let message : string = ' “Hello Eric, would you like to learn some Python today?”'
-console.log(message);*/
-
-
-// PROJECT NUMBER 3
-
-/*
-var name1 : string = "RaMeez";
-console.log("LowerCase: " +name1.toLowerCase());
-console.log("UpperCase: " +name1.toUpperCase());
-console.log("Titlecase: " +name1.charAt(0).toUpperCase() + name1.slice(1).toLowerCase())
-*/
-
-// PROJECT NUMBER 4
-/*
-console.log("Albert Einstein"+" once said,"+' “A person who never made a mistake never tried anything new.” ');
-*/
-
-// PROJECT NUMBER 5
-/*
-let quote : string = ' “A person who never made a mistake never tried anything new.” ';
-let authorName : string = "Albert Einstein";
-
-console.log(authorName+" once said,"+' “A person who never made a mistake never tried anything new.” ');
-*/
-
-
-// PROJECT NUMBER 6
 /* 
-let newName: string = "Ali";
-let newName2: string = "Rameez";
-
-console.log("\t\n"+newName+"\t\n");
-console.log("\t\n"+newName2.trim()+"\t\n");
+let personName : string = "Rameez";
+console.log(`“Hello ${personName}, would you like to learn some Python today?”`);
  */
 
-// PROJECT 7 & 8
+// task 3
 
-/*
-console.log(5+3);
-console.log(11-3);
+/* 
+
+let name : string = "RaMeez";
+
+console.log(name.toLowerCase());
+console.log(name.toUpperCase());
+console.log(name.charAt(0).toUpperCase() + name.slice(1).toLowerCase());
+
+ */
+
+// Task 4 
+
+/* 
+
+console.log('Albert Einstein once said, “A person who never made a mistake never tried anything new.”');
+
+*/
+
+// Task 5
+
+/* 
+
+let famousPerson : string = 'Albert Einstein ';
+let message : string = `${famousPerson}once said, “A person who never made a mistake never tried anything new.”`
+
+console.log(message);
+
+ */
+
+// Task 6
+
+/* 
+let name : string = "\n\tRameez\n\t";
+
+console.log(name); //with whitespaces
+
+console.log(name.trim()); //without whitespaces
+
+ */
+
+// Task 7 and 8 
+
+/* 
+console.log(6+2);
+console.log(10-2);
 console.log(4*2);
-console.log(64/8);
-*/
+console.log(16/2);
+
+ */
+
+// Task 9 
+
+/* 
+let favoriteNumber : number = 8;
+let message : string = `My Favorite Number is ${favoriteNumber}`
+
+console.log(message);
+
+ */
+
+// Task 10 
+
+// Rameez, 07-03-2024
+// this language my favorite program 
+/* 
+let language : string = 'typescript';
+
+console.log(`i like learn ${language}`);
+ */
+
+// Task 11 
+
+/* 
+let arr : string[] = ["Anus","Mohsin","Ebad","Hassan"]
+
+for(let i = 0 ; i < arr.length ; i++){
+    console.log(arr[i]);
+    
+} */
 
 
-// PROJECT 9
+// Task 12
+/* 
+let arr : string[] = ["Anus","Mohsin","Ebad","Hassan"]
 
-/*
-let favNum : number = 4;
-console.log("My Favorite Number Is "+favNum);
-*/
-
-
-// PROJECT 10
-/*
-let num: number = 6;
-let num2 : number= 7;
-let sum : number= num + num2;
-
-console.log(`The sum of ${num} and ${num2} is: ${sum}`);
-*/
-
-
-// PROJECT 11
-/*
-
-let name = ["Rameez" , "Ali" , "Abdullah" , "Abdul Ghani"]
-
-
-for( var i = 0 ; i < names.length ; i++){
-    console.log(names[i]);
+for(let i = 0 ; i < arr.length ; i++){
+    console.log(`My best friend is ${arr[i]}`);
+    
 }
-*/
-
-
-// PROJECT NUMBER 12
-
-/*
-let names = ["Rameez" , "Ali" , "Abdullah" , "Abdul Ghani"]
-let messges : string= " you are very good person."
-
-for( var i = 0 ; i < names.length ; i++){
-    console.log(names[i]+messges);
-}
-*/
+ */
 
 
 // PROJECT NUMBER 13
