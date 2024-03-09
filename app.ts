@@ -121,32 +121,34 @@ for(var i = 0 ; i < guestList.length ; i++){
 }
 */
 
-// PROJECT NUMBER 15
-
-/* let guestAr = ["Rameez","Anus","Ali","Abdul Ghani"];
-let canNotAttend :string = "Rameez";
-
-console.log(canNotAttend +" "+ "can't attend dinner" );
-
-console.log(guestAr.s */
-
-
-// PROJECT 16
+// Task 15
 /* 
-let guestAr = ["Rameez","Anus","Ali","Abdul Ghani"];
+let guestList : string[] = ["Rameez","ALi","Abdullah"];
+
+let unableToAttend = "Rameez";
+
+console.log(`${unableToAttend} can't make it to dinner.`);
+
+guestList.splice(0,1,"Abdul Ghani")
+
+for(let i = 0 ; i < guestList.length ; i++){
+    console.log(`Dear, ${guestList[i]} would you like to join me for dinner?`);
+}
+ */
+// Task 16 
+/* 
+let guestList = ["Rameez","Ali","Abdullah","Anus","Ebad"];
 
 console.log("Good news! We found a bigger dinner table!");
 
-guestAr.unshift("Mohsin");
+guestList.unshift("Mohsin");
 
-let middleIndex = Math.floor(guestAr.length / 2);
-guestAr.splice(middleIndex,0,"Ebad");
+guestList.splice(guestList.length /2,0,"Abdul Ghani")
 
-guestAr.push("Fahad");
+guestList.push("Fahad");
 
-for(let i = 0 ; i < guestAr.length ; i++){
-    console.log("Hello, "+guestAr[i]+" You're invited to the dinner.");
-    
+for(let i = 0 ; i < guestList.length ; i++){
+    console.log("Hello, "+guestList[i]+" You're invited to the dinner.");
 }
  */
 
