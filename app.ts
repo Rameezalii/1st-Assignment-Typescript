@@ -153,65 +153,59 @@ for(let i = 0 ; i < guestList.length ; i++){
  */
 
 
-// PROJECT 17 
+// Task 17 
+
+// let dinnerGuests : string[] = ["Alice", "Bob", "Charlie", "David", "Eve" , "Rameez","Anas","Ali"];
+
+// console.log("Unfortunately, the dinner table can only accommodate two guests.");
+
+// while (dinnerGuests.length > 2) {
+    
+//     let removedGuest = dinnerGuests.pop();
+    
+    
+//     console.log(`Sorry, ${removedGuest}, you can't be invited to dinner.`);
+// }
+
+// for(let i = 0 ; i < dinnerGuests.length ; i++){
+//     console.log(`${dinnerGuests[i]}, you're still invited to dinner.`);
+// }
+
+// dinnerGuests.splice(0,dinnerGuests.length)
+// console.log(`${dinnerGuests} End of the program.`);
+
+
+// Task 18
 /* 
-let dinnerGuests = ["Alice", "Bob", "Charlie", "David", "Eve"];
+let locations : string[] = [" Karachi "," LaHOre "," Islamabad "," Quetta "," Peshawar "," Rawalpindi " ];
 
-console.log("Unfortunately, the dinner table can only accommodate two guests.");
+console.log("orignal order: ",locations);
 
-while (dinnerGuests.length > 2) {
-    
-    const removedGuest = dinnerGuests.pop();
-    
-    
-    console.log("Sorry,"+ removedGuest+", you can't be invited to dinner.");
+console.log("Alphabetical order: ",locations.sort());
+
+console.log("orignal order: ",locations);
+
+console.log("Alphabetical order: ",locations.sort().reverse());
+
+console.log("orignal order: ",locations);
+
+locations.reverse();
+console.log("reverse order: ");
+locations.reverse();
+console.log("reverse order: ");
+
+locations.sort();
+console.log("Alphabetical order: ",locations.sort());
+ */
+
+// Task 19 
+/* 
+let guests : string[] = ["Rameez","Ali","Abdullah","Anas"];
+
+for(let i = 0 ; i < guests.length ; i++){
+    console.log(`Dear,${guests[i]} you are inviting to dinner.`);
 }
-
-dinnerGuests.forEach(guest => {
-    console.log(guest+", you're still invited to dinner.");
-});
-
-dinnerGuests.pop();
-dinnerGuests.pop();
-
-
-console.log("Updated Guest List:", dinnerGuests);
  */
-
-
-
-// PROJECT 18 
-
-/* let diffLocations  : string[] = [" Saddar "," Liaquatabad ", " Nazimabad "," Hyderi "," Azizabad "," Karmiabad "];
-console.log(`Locations : ${diffLocations}`);
-
-  diffLocations.sort();
-console.log(`Array In Alphabetical Order : ${diffLocations}`);
-
-  diffLocations.reverse();
-console.log(`Reverse In Alphabetical Order : ${diffLocations}`); 
-
-diffLocations.reverse();
-console.log(`Again Reverse In Alphabetical Order : ${diffLocations}`);
- 
- diffLocations.sort();
-console.log(`Sort Array : ${diffLocations}`);
-
-diffLocations.sort();
-console.log(`Sort Array : ${diffLocations}`);
-
-diffLocations.sort().reverse();
-console.log(`Reverse Alphabatic Order : ${diffLocations}`);
- */
-
-
-// PROJECT 19 
-
- /* 
-let dinnerGuests : string[] = ["Alice", "Bob", "Charlie", "David", "Eve"];
-
-console.log("Number of people invited to dinner:", dinnerGuests.length);
-  */
  
 
 // PROJECT 20
