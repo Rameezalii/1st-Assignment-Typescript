@@ -217,22 +217,16 @@ for (let i = 0 ; i < cities.length ; i++ ) {
 }
 */
 
+// Task 21
 
-// PROJECT 21
-
-/* let usa = { name: "USA", capital: "Washington D.C.", population: 331002651, language: "English" };
-let canada = { name: "Canada", capital: "Ottawa", population: 37742154, language: "English, French" };
-let australia = { name: "Australia", capital: "Canberra", population: 25499884, language: "English" };
-let japan1 = { name: "Japan", capital: "Tokyo", population: 126476461, language: "Japanese" };
-let france1 = { name: "France", capital: "Paris", population: 65273511, language: "French" };
-
-console.log("Country Information:");
-console.log(usa);
-console.log(canada);
-console.log(australia);
-console.log(japan1);
-console.log(france1); */
-
+/* 
+let book: { title: string; author: string; yearPublished: number } = {
+    title: "The Hobbit",
+    author: "J.R.R. Tolikien",
+    yearPublished: 1937
+};
+console.log(`Book Info : ${book.title} By ${book.author} ,Published In ${book.yearPublished}`);
+ */
 
 
 // PROJECT 22
